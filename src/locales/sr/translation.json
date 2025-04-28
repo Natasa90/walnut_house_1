@@ -1,0 +1,40 @@
+{
+  "welcome": "Dobrodošli u našu aplikaciju!",
+  "navbar": {
+    "home": "Početna",
+    "about": "O Nama",
+    "gallery": "Galerija",
+    "booking": "Rezervacija",
+    "contact": "Kontakt"
+  },
+  "about-us": "O nama",
+  "contactForm": {
+    "fullName": "Ime i Prezime",
+    "email": "Email",
+    "phone": "Broj telefona",
+    "message": "Vaša Poruka",
+    "submitButton": "Pošalji",
+    "sendingButton": "Šalje se...",
+    "requiredFullname": "Polje Ime i Prezime je obavezno",
+    "requiredEmail": "Polje Email je obavezno",
+    "requiredPhone": "Polje Broj telefona je obavezno",
+    "requiredMessage": "Polje Vaša Poruka je obavezno",
+    "invalidEmail": "Nepravilan format email-a",
+    "contactUs": "Kontaktirajte nas",
+    "errorMessage": "Slanje nije uspešno. Molimo pokušajte ponovo.",
+    "successMessage": "Vaša poruka je poslata. Uskoro ćemo Vas kontaktirati."
+  },
+  "calendar": {
+    "today": "Danas",
+    "month": "Mesec",
+    "week": "Nedelja",
+    "day": "Dan",
+    "previous": "Prethodno",
+    "next": "Sledeće",
+    "noEvents": "Nema događaja za prikaz"
+  },
+  "booking": {
+    "selectDates": "Izaberite datume",
+    "book": "Rezerviši"
+  } 
+}

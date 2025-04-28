@@ -1,0 +1,40 @@
+{
+ "welcome": "Welcome to our app!",
+  "navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "gallery": "Gallery",
+    "booking": "Booking",
+    "contact": "Contact"
+  },
+  "about-us": "About us", 
+  "contactForm": {
+    "fullName": "Full Name",
+    "email": "Email",
+    "phone": "Phone Number",
+    "message": "Your Message",
+    "submitButton": "Send",
+    "sendingButton": "Sending...",
+    "requiredFullname": "Full Name field is required",
+    "requiredEmail": "Email field is required",
+    "requiredPhone": "Phone Number field is required",
+    "requiredMessage": "Your Message field is required",
+    "invalidEmail": "Invalid email format",
+    "contactUs": "Contact Us",
+    "errorMessage": "Sending failed. Please try again.",
+    "successMessage": "Your message has been sent. We will contact you soon."
+  },
+  "calendar": {
+    "today": "Today",
+    "month": "Month",
+    "week": "Week",
+    "day": "Day",
+    "previous": "Previous",
+    "next": "Next",
+    "noEvents": "No events to show"
+  },
+  "booking": {
+    "selectDates": "Select Your Dates",
+    "book": "Book"
+  } 
+}

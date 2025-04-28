@@ -1,0 +1,51 @@
+/* CalendarStyles.css */
+
+/* 1) Enlarge & round the whole thing */
+.rdrCalendarWrapper {
+  max-width: 700px;       /* bump the width */
+  width: 100%;
+  border-radius: 1rem;    /* nice, soft corners */
+  overflow: hidden;       
+  font-size: 1.1rem;      /* scale up text & cells */
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  background: #f0ece2;    /* first-color as overall bg */
+}
+
+/* 2) Header row gets your second color */
+.rdrMonthAndYearPickers,
+.rdrDateDisplayWrapper {
+  background: #dfd3c3; 
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+/* style the month/year dropdowns */
+.rdrMonthAndYearPickers select {
+  color: #596e79;         /* fourth-color for contrast */
+  font-weight: bold;
+}
+
+/* 3) Weekday labels row */
+.rdrWeekDays {
+  background: #c7b198;    /* third-color */
+  color: #596e79;
+  border-radius: 15px;
+}
+
+/* 4) Days in the grid */
+.rdrDayNumber span {
+  font-size: 1.2rem;
+}
+
+/* 5) Selected & in-range days */
+.rdrDayInRange,
+.rdrDaySelected {
+  background-color: #596e79 !important;  /* fourth-color */
+  color: #f0ece2 !important;            /* light text */
+}
+
+/* 6) Hover on days */
+.rdrDayHoverInRange,
+.rdrDayHover {
+  background-color: rgba(89,110,121,0.2) !important;
+}
